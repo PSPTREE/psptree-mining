@@ -23,11 +23,11 @@ public int compare(Object o0, Object o1) {
 	TreeNode tn0 = (TreeNode) o0;
 	TreeNode tn1 = (TreeNode) o1;
 		if (tn0.value > tn1.value) {
-			return 1; // 第一个大于第二个
+			return 1; // 
 		} else if (tn0.value < tn1.value) {
-			return -1;// 第一个小于第二个
+			return -1;// 
 		} else {
-			return 0; // 等于
+			return 0; //
 		}
 	}
 }

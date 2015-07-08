@@ -61,7 +61,7 @@ public class Miner
 					while (iterator.hasNext()) 
 					{ 
 						int va=(Integer)(iterator.next());
-						System.out.println(p+cur.value+"连  续出现 "+va+" fre:"+map.get(va));
+						System.out.println(p+cur.value+"appears continuously"+va+" fre:"+map.get(va));
 					}
 
 				}
